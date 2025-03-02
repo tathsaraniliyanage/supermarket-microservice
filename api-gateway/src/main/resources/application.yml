@@ -19,6 +19,10 @@ spring:
           uri: http://localhost:3000
           predicates:
             - path=/inventory-service/**
+        - id: customer-service
+          uri: http://localhost:5000
+          predicates:
+            - path=/customer-service/**
 
 
 eureka:
