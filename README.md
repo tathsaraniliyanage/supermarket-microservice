@@ -24,7 +24,7 @@ The project is composed of the following services:
 6. **Product Service (Spring Boot, Maven)**
    - Manages product-related operations such as product catalog, product details, etc.
 
-## Prerequisites
+## 📚 Prerequisites
 
 Before running the project, ensure you have the following installed:
 
@@ -81,8 +81,68 @@ Before running the project, ensure you have the following installed:
 
 ---   
 
+   ### 4. Customer Service
+
+1. Navigate to the inventory-service-springboot directory.
+2. Build the project using Maven or Gradle:
+   ```
+   mvn clean install
+   ```
+   or
+   ```
+   gradle build
+   ```
+4. Run the Inventory Service
+   ```
+   mvn spring-boot:run
+   ```
+   or
+   ```
+   gradle bootRun
+   ```
+5. The Inventory Service will be available at http://localhost:8081.
 
 ---
+
+
+### 5. Order Service
+
+1. Navigate to the order-service-springboot directory.
+2. Build the project using Maven or Gradle:
+   ```
+   mvn clean install
+   ```
+   or
+   ```
+   gradle build
+   ```
+3. Run the Order Service
+   ```
+   mvn spring-boot:run
+   ```
+   or
+   ```
+   gradle bootRun
+   ```
+5. The Order Service will be available at http://localhost:8082.
+    
+
+
+---
+
+### 6. Product Service
+
+1. Navigate to the product-service-springboot directory.
+2. Build the project using Maven 
+   ```
+   mvn clean install
+   ```
+3. Run the Product Service
+   ```
+   mvn spring-boot:run
+   ```
+5. The Product Service will be available at http://localhost:8083.
+    
 
 ---
 
