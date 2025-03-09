@@ -40,9 +40,51 @@ Before running the project, ensure you have the following installed:
 
 1. Navigate to the `eureka-server-springboot` directory.
 2. Build the project using Maven:
-   ```bash
+   ```
    mvn clean install
+3. Run the Eureka Server
+   ```
+   mvn spring-boot:run
+   ```
+4. The Eureka server will be available at http://localhost:8761.
 
+
+---
+
+### 2. API Gateway
+
+1. Navigate to the api-gateway-springboot directory.
+2. Build the project using Maven:
+   ```
+   mvn clean install
+3. Run the API Gateway
+   ```
+   mvn spring-boot:run
+   ```
+4. The API Gateway will be available at http://localhost:8080
+    
+
+---
+
+   ### 3. Customer Service
+
+1. Navigate to the customer-service-python directory
+2. Install the required Python dependencies
+   ```
+   pip install -r requirements.txt
+3. Run the Customer Service
+   ```
+   python app.py
+   ```
+4. The Customer Service will be available at http://localhost:5000.
+
+
+---   
+
+
+---
+
+---
 
   ## 📚 License
 
